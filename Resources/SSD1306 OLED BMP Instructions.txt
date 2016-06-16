@@ -1,0 +1,13 @@
+How to create BMPs for AdaFruit's SSD1306 OLED Display
+
+1. Using Template in photoshop "SSD1306 128x64 Template.psd"
+2. Create your graphic
+3. When finished, Image / Mode / Greyscale to insure it looks the way you want in monochrome
+4. SaveAs BMP 
+5. Open BMP in MSPAINT
+6. SaveAs "Monochrome BMP"
+7. Open BMP in LCD Assistant
+8. Select Vertical
+9. SaveAs text output
+10. Copy contents to .INO file
+11. add "PROGMEM" before the variable name
